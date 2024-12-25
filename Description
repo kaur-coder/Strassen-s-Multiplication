@@ -1,0 +1,27 @@
+Strassen’s Matrix Multiplication
+
+Strassen’s Matrix Multiplication is the divide and conquer approach to solve the 
+
+matrix multiplication problems. The usual matrix multiplication method 
+
+multiplies each row with each column to achieve the product matrix. The time 
+
+complexity taken by this approach is O(n3
+
+), since it takes two loops to multiply. 
+
+Strassen’s method was introduced to reduce the time complexity 
+
+from O(n3
+
+) to O(nlog 7)
+
+The standard method of matrix multiplication of two n × n matrices takes O ( n 
+
+3) operations. Strassen’s algorithm is a Divide-and-Conquer algorithm that is 
+
+asymptotically faster, i.e. O (nlog 7). • The usual multiplication of two 2 × 2 
+
+matrices takes 8 multiplications and 4 additions. Strassen showed how two 2 × 2 
+
+matrices can be multiplied using only 7 multiplications and 18 additions.
